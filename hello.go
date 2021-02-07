@@ -5,20 +5,7 @@ import (
 )
 
 func main() {
-	x := 5
-	y := 7
-	sum := x + y
-	fmt.Println(sum)
-}
-
-func ifStatement() {
-	x := 7
-
-	if x > 6 {
-		fmt.Println("more than 6")
-	} else if x < 2 {
-
-	} else {
-
-	}
+	a := []int{5, 4, 3, 2, 1}
+	a = append(a, 13)
+	fmt.Println(a)
 }
