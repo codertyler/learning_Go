@@ -2,11 +2,10 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/mactsouk/go/simpleGitHub"
 )
 
 func main() {
-	for i := 0; i < 5; i++ {
-		fmt.Println(i)
-	}
-
+	fmt.Println(simpleGitHub.AddTwo(5, 6))
 }
